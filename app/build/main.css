@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.week_view ul {
+  display: flex;
+  list-style-type: none;
+  height: 50vh; }
+
+.week_view li {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: tomato;
+  flex: 1;
+  border: solid 1px #000; }
+  .week_view li a {
+    height: 100%;
+    display: block; }
+  .week_view li p {
+    border-bottom: solid 1px #000; }
+
+/*# sourceMappingURL=main.css.map */

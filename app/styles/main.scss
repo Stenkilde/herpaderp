@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.week_view {
+	ul {
+		display: flex;
+		list-style-type: none;
+		height: 50vh;
+	}
+	li {
+		width: 100%;
+		display: block;
+		text-align: center;
+		background: tomato;
+		flex: 1;
+		border: solid 1px #000;
+		a {
+			height: 100%;
+			display: block;
+		}
+		p {
+			border-bottom: solid 1px #000;
+		}
+	}
+}

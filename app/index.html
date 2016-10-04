@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appName">
+	<head>
+		<meta charset="UTF-8">
+		<title>appName</title>
+		<link rel="stylesheet" href="build/main.css">
+	</head>
+	<body>
+
+		<div ui-view="application"></div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+		<script src="build/app.js"></script>
+		<script src="config/config.ts"></script>
+		<script src="modules/_application/application.route.ts"></script>
+		<script src="modules/shared/topbar/topbar.controller.ts"></script>
+		<script src="modules/main/main.route.ts"></script>
+		<script src="modules/main/index/index.controller.js"></script>
+	</body>
+</html>
